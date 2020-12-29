@@ -95,7 +95,15 @@ align-items: center;
 
 /*Make responsive on mobile*/
 @media screen and (max-width: 600px) {
-  p, h1, #intro, #order a {
+   h1 {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 480px) {
+  h1 {
     float: none;
     width: 100%;
   }
