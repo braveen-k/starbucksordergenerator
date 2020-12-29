@@ -22,6 +22,8 @@
 #logo {
   height: 22.4375rem;
   margin: 0.625rem;
+  max-width: 100%;
+  height: auto;
 }
 
 #generate {
