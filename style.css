@@ -1,18 +1,18 @@
 @import url(//db.onlinewebfonts.com/c/aa4fa7317c478848a62cc69bdbd47f0f?family=Santana-Black);
 @font-face {font-family: "Santana-Black"; src: url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.eot"); src: url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.woff") format("woff"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.svg#Santana-Black") format("svg"); }
 
-* {
+body {
   background-color: #006241;
   color: white;
 }
 
 #intro {
   padding-top: 4.375rem;
-  padding-bottom: 3.75rem;
+  padding-bottom: 2rem;
   font-size: 1.6rem;
-  line-height: 200%;
+  line-height: 190%;
   display: box;
-  max-width: 70%;
+  max-width: 65%;
   margin: 0 auto;
   text-align: center;
   text-shadow: 1px 3px black;
@@ -25,12 +25,13 @@
 }
 
 #generate {
-background-color: black;  
+background-color: black;
+color: white;
 display: inline-block;
 font-size: 1.25rem;
 cursor: pointer; 
-margin-bottom: 3.125rem;  
-  padding: 1.25rem;
+margin-bottom: 2.5rem;  
+  padding: 1rem;
 font-family: 'Santana-Black', Times;
 }
 
@@ -39,7 +40,8 @@ display: flex;
   justify-content: center;
   align-items: center;
   height: 3.125rem;
-  margin-top: 1.875rem;
+  margin-top: 2.875rem;
+  margin-bottom: 0.4rem;
   }
 
 .button-container {
@@ -61,6 +63,7 @@ padding: 0.625rem;
 border: 5px solid black;
  max-width: 70%;
  margin: 0 auto;
+ margin-top: 1.3rem;
 }
 
 button {
@@ -78,9 +81,7 @@ h1 {
   text-align: center;
   font-family: 'Santana-Black', Times;
   font-size: 2.5rem;
-  text-shadow: 5px 5px black;
-  letter-spacing: 10%;
-  
+  text-shadow: 5px 5px black;  
 }
 
 #forgot {
@@ -107,6 +108,8 @@ align-items: center;
     font-size: 1.1rem;
     padding-top: 5.5rem;
     padding-bottom: 2rem;
+    text-align: left;
+    line-height: 2.2rem;
   }
   
   #generate {
@@ -119,7 +122,7 @@ align-items: center;
   }
   
   #forgot {
-  font-size: 0.95rem;  
+  font-size: 0.9rem;  
     
   }
 }
