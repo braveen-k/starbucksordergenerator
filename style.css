@@ -8,7 +8,7 @@
 
 #intro {
   padding-top: 4.375rem;
-  padding-bottom: 1.875rem;
+  padding-bottom: 3.75rem;
   font-size: 1.6rem;
   line-height: 200%;
   display: box;
@@ -29,7 +29,7 @@ background-color: black;
 display: inline-block;
 font-size: 1.25rem;
 cursor: pointer; 
-margin-bottom: 3.125rem;
+margin-bottom: 3.125rem;  
   padding: 1.25rem;
 font-family: 'Santana-Black', Times;
 }
@@ -106,6 +106,7 @@ align-items: center;
   #intro {
     font-size: 1.1rem;
     padding-top: 5.5rem;
+    padding-bottom: 2rem;
   }
   
   #generate {
