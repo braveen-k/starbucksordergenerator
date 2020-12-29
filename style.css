@@ -97,7 +97,6 @@ align-items: center;
 @media screen and (max-width: 600px) {
    h1 {
     float: none;
-    width: 100%;
     font-size: 50%;
   }
 }
