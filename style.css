@@ -94,7 +94,7 @@ align-items: center;
 }
 
 /*Make responsive on mobile*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
    h1 {
     float: none;
     font-size: 50%;
