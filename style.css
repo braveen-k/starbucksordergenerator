@@ -93,7 +93,7 @@ align-items: center;
  color: black; 
 }
 
-//Make responsive on mobile
+/*Make responsive on mobile*/
 @media screen and (max-width: 600px) {
   p, h1, #intro, #order a {
     float: none;
