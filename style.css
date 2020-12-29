@@ -1,7 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/aa4fa7317c478848a62cc69bdbd47f0f?family=Santana-Black);
-
 @font-face {font-family: "Santana-Black"; src: url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.eot"); src: url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.woff") format("woff"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/aa4fa7317c478848a62cc69bdbd47f0f.svg#Santana-Black") format("svg"); }
-
 
 * {
   background-color: #006241;
@@ -20,8 +18,6 @@
   margin: 0 auto;
   text-align: center;
   text-shadow: 1px 3px black;
-
-
 
 }
 
@@ -54,8 +50,7 @@ display: flex;
   align-items: center;
   height: 50px;
   margin-top: 30px;  
-  }
- 
+  } 
 
 #order {
 font-size: 30px;
